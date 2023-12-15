@@ -62,6 +62,20 @@ public class ImportFileDAO {
 		callableStatement.execute();
 
 	}
+
+    public void loadDataToDataWarehouse() throws SQLException {
+        CallableStatement callableStatement = con
+                .prepareCall("{CALL " + ConfigProperties.LOAD_DATA_TO_WH + "()}");
+        callableStatement.execute();
+
+    }
+
+    public void loadDataToMart() throws SQLException {
+        CallableStatement callableStatement = con
+                .prepareCall("{CALL " + ConfigProperties.LOAD_DATA_TO_MART + "()}");
+        callableStatement.execute();
+
+    }
 	
 	
 

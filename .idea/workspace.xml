@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5421612a-a4cf-477b-abad-9c60c2400071" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/bin/script/RunScript.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/script/RunScript.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dao/ImportFileDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/ImportFileDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/script/ImportFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/script/ImportFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/script/RunScript.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/script/RunScript.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2ZXYTiLM7nvSF0KIrSLxKgjraUe" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "E:/intellij/xoso_source/query",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\intellij\xoso_source\query" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5421612a-a4cf-477b-abad-9c60c2400071" name="Changes" comment="" />
+      <created>1702569903698</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1702569903698</updated>
+      <workItem from="1702569904968" duration="39000" />
+      <workItem from="1702569958309" duration="1589000" />
+      <workItem from="1702573019211" duration="16000" />
+      <workItem from="1702573742257" duration="649000" />
+      <workItem from="1702658125920" duration="890000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
