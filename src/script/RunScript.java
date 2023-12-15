@@ -53,7 +53,16 @@ public class RunScript {
 				break;
 
 			}
-			
+			case "TRANSFORMED": {
+				new ImportFile().loadToDataWarehouse(tmp);
+				break;
+
+			}
+			case "WH_LOADED": {
+				new ImportFile().loadToDataMart(tmp);
+				break;
+
+			}
 
 			}
 		}
