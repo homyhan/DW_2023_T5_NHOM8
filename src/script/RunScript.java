@@ -34,7 +34,15 @@ public class RunScript {
 		for (Config tmp : new ControlDAO().getConfigWithFlagTrue()) {
 			System.out.println("--------------------" + tmp.getId() + " " + tmp.getStatus());
 			switch (tmp.getStatus()) {
-			
+			case "": {
+				new Scrapping().getData(tmp);
+				break;
+			}
+			case "DONE": {
+				new Scrapping().getData(tmp);
+				break;
+
+			}
 			case "CRAWLED": {
 				new ImportFile().loadToStaging(tmp);
 				break;
