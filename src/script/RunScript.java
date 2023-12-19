@@ -48,7 +48,7 @@ public class RunScript {
 				break;
 
 			}
-			case "EXTRACTED": {
+			case "STAGING_LOADED": {
 				new ImportFile().transformData(tmp);
 				break;
 

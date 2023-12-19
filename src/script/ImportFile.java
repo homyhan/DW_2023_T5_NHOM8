@@ -17,7 +17,7 @@ public class ImportFile {
 	public void loadToStaging(Config config) {
 		System.out.println(config.toString());
 		ImportFileDAO stagingDao = new ImportFileDAO();
-		new ControlDAO().updateStatus(config.getId(), "EXTRACTING");
+		new ControlDAO().updateStatus(config.getId(), "STAGING_LOADING");
 		try {
 			stagingDao.truncateTable();
 			stagingDao.extractDataToStaging(config.getPathDetail());
@@ -30,7 +30,7 @@ public class ImportFile {
 			e.printStackTrace();
 			return;
 		}
-		new ControlDAO().updateStatus(config.getId(), "EXTRACTED");
+		new ControlDAO().updateStatus(config.getId(), "STAGING_LOADED");
 		transformData(config);
 
 	}
